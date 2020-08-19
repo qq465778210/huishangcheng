@@ -1,0 +1,78 @@
+/* 公共样式 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 引入字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?3a2xdr');
+    src: url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon.ttf?3a2xdr') format('truetype'),
+         url('../fonts/icomoon.woff?3a2xdr') format('woff'),
+         url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.shortcut .icomoon {
+    font-family: 'icomoon', serif;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+/* 顶部导航栏 */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+/* 顶部导航栏的li元素，作为连接 */
+.shortcut li {
+    float: left;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url("../img/logo.png") no-repeat;
+    text-indent: -99999px;
+    overflow: hidden;
+}
