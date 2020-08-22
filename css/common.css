@@ -15,11 +15,11 @@
 /* 引入字体图标 */
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?3a2xdr');
-    src: url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
-         url('../fonts/icomoon.ttf?3a2xdr') format('truetype'),
-         url('../fonts/icomoon.woff?3a2xdr') format('woff'),
-         url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -57,7 +57,7 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
+    /*background-color: pink;*/
 }
 
 .logo {
@@ -75,4 +75,138 @@
     background: url("../img/logo.png") no-repeat;
     text-indent: -99999px;
     overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    left: 348px;
+    top: 25px;
+}
+
+.search .search-key {
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+}
+
+.search .search-bth {
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hot-words {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+
+.hot-words a {
+    margin: 0 10px;
+}
+
+.shop-car {
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    text-align: center;
+}
+
+.shop-car .car {
+    font-family: 'icomoon', serif;
+    color: #da5555;
+}
+
+.shop-car .arrow {
+    font-family: 'icomoon', serif;
+    margin-left: 5px;
+}
+
+.shop-car .count {
+    position: absolute;
+    background-color: #e60012;
+    /*right: 18px;*/
+    left: 105px;
+    top: -5px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    /*border-radius: 左上 右上 右下 左下*/
+    border-radius: 7px 7px 7px 0;
+}
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+
+.nav .drop-down {
+    width: 209px;
+    height: 45px;
+    background-color: pink;
+}
+
+.nav .drop-down .dt {
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.nav .drop-down .dd {
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.menu-item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 10px;
+}
+
+.menu-item a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu-item i {
+    float: right;
+    font-family: 'icomoon', serif;
+    color: #fff;
+}
+.menu-item:hover a {
+    color: #c81623;
+}
+
+.menu-item:hover {
+    background-color: #fff;
+}
+
+.nav-items {
+    margin-left: 10px;
+}
+
+.nav-items li {
+    float: left;
+}
+
+.nav-items li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 16px;
 }
