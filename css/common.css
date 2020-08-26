@@ -210,3 +210,22 @@
     padding: 0 25px;
     font-size: 16px;
 }
+
+.footer {
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod-service {
+    height: 79px;
+    background-color: pink;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod-service li {
+    float: left;
+    width: 240px;
+    height: 79px;
+    background-color: pink;
+}
